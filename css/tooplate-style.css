@@ -15,48 +15,36 @@ h1#h1{
     
     div#lista{
     display: block;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
     }
-
-    div#lista a{
+    
+    div.plani a{
+        background-color: rgb(65, 65, 65);
+        border-radius: 0.5em;
+        text-align: center;
+        margin-bottom: 1em;
+        width: 2em;
+        height: 2em;
+        margin-bottom: 2%;
+        margin-left: 2%;
         color: white;
         font-weight: bold;
     }
+
+    table#marcas{
+        margin: 5%;
+        border-collapse: separate;
+        border-spacing: 2em;
+    }
+
+    tr#marcast{
+        border-bottom:1px solid #000;
+    }
     
-    div.lunes{
-        background-color: red;
-        border-radius: 0.8em;
-        text-align: center;
-        
-    }
-
-    div.martes{
-        background-color:blue;
-        border-radius: 0.8em;
-        text-align: center;
-        
-    }
-
-    div.miercoles{
-        background-color:greenyellow;
-        border-radius: 0.8em;
-        text-align: center;
-        
-    }
-
-    div.jueves{
-        background-color: blueviolet;
-        border-radius: 0.8em;
-        text-align: center;
-        
-    }
-
-    div.viernes{
-        background-color: yellow;
-        border-radius: 0.8em;
-        text-align: center;
-        
-    }
-
 
 
 /* Fin*/
