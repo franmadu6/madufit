@@ -32,20 +32,58 @@ h1#h1{
         margin-bottom: 2%;
         margin-left: 2%;
         color: white;
-        font-weight: bold;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    div.plani a:hover{
+        background-color: rgb(134, 134, 134);
+    }
+
+    div#tabla{
+        overflow:scroll;
     }
 
     table#marcas{
         margin: 5%;
         border-collapse: separate;
         border-spacing: 2em;
+        
     }
 
     tr#marcast{
         border-bottom:1px solid #000;
     }
     
+    /* Entrenamientos*/
+    span#verde{
+        color: greenyellow;
+    }
 
+    div#color{
+        background-color: rgb(65, 65, 65);
+        border-radius: 0.3em;
+    }
+
+    div#color2{
+        margin-left: 5%;
+    }
+
+    div#color2 h2{
+        margin-top: 2%;
+    }
+
+    a#exit{
+        font-weight: bold;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: white;
+        text-align: right;
+
+    }
+
+    div#color a{
+        margin-left: 93%;
+    }
 
 /* Fin*/
 
