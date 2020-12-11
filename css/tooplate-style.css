@@ -36,7 +36,7 @@ h1#h1{
     }
 
     div.plani a:hover{
-        background-color: rgb(134, 134, 134);
+        background-color: rgb(65, 65, 65);
     }
 
     div#tabla{
@@ -60,7 +60,7 @@ h1#h1{
     }
 
     div#color{
-        background-color: rgb(65, 65, 65);
+        background-color: #282829;
         border-radius: 0.3em;
     }
 
